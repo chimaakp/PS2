@@ -34,7 +34,8 @@ public class MyInteger {
 	
 	
 	public boolean isPrime(){
-		
+		double ptest = iValue
+		if()
 		
 	}
 }

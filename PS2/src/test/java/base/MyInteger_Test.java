@@ -12,12 +12,19 @@ public class MyInteger_Test {
 	
 	@Test
 	public void testisEven() {
-		MyInteger tgi = new MyInteger(7);
-		assertTrue(tgi, 7 );
+		MyInteger tge = new MyInteger(8);
+		assertTrue(tge.isEven());
 	}
 
 	@Test
 	public void testisOdd() {
-		M
+		MyInteger tgo = new MyInteger(7);
+		assertTrue(tgo.isOdd());
+	}
+	
+	@Test
+	public void  testisPrime() {
+		MyInteger tgp = new MyInteger(29);
+		assertTrue(tgp.isPrime());
 	}
 }

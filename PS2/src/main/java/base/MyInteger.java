@@ -12,15 +12,21 @@ public class MyInteger {
 		return iValue;		
 	}
 	
-	public int isEven(){
+	public boolean isEven(){
+		int etest = iValue % 2;
+		if(etest == 0){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	
+	public boolean isOdd(){
 		
 	}
 	
-	public int isOdd(){
-		
-	}
-	
-	public int isPrime(){
+	public boolean isPrime(){
 		
 	}
 }

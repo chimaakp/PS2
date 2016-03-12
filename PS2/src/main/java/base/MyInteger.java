@@ -33,16 +33,18 @@ public class MyInteger {
 	}		
 	
 	
-	public boolean isPrime(){
-		int ptest = iValue;
-		for(int p = 1; p < (iValue / 2 ); ++p){
-			if( ptest % p == 0){
+	public boolean isPrime() {
+		for(int p = 2; p < (iValue / 2) ; p++) {
+			if(iValue % p == 0)
 				return false;
-			}
-			else{
-				return true;
-			}
 		}
+		return true;
 		
 	}
+
+	
+	
+	
+	
+	
 }

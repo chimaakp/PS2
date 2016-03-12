@@ -9,26 +9,12 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class MyInteger_Test {
-
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-	}
-
-	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-	}
-
-	@Before
-	public void setUp() throws Exception {
-	}
-
-	@After
-	public void tearDown() throws Exception {
-	}
-
+	
 	@Test
-	public void test() {
-		assertTrue(1==1);
+	public void testgetiValue() {
+		MyInteger tgi = new MyInteger(7);
+		assertTrue(tgi, 7 );
 	}
+
 
 }

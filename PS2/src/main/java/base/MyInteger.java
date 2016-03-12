@@ -1,8 +1,8 @@
 package base;
 
-private class MyInteger {
+public class MyInteger {
 	
-	int iValue;
+	private int iValue;
 	//constuctor
 	MyInteger(int iValue){
 		iValue = this.iValue;

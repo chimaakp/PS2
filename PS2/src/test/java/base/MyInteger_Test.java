@@ -11,10 +11,13 @@ import org.junit.Test;
 public class MyInteger_Test {
 	
 	@Test
-	public void testgetiValue() {
+	public void testisEven() {
 		MyInteger tgi = new MyInteger(7);
 		assertTrue(tgi, 7 );
 	}
 
-
+	@Test
+	public void testisOdd() {
+		M
+	}
 }

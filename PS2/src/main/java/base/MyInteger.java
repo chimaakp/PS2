@@ -1,6 +1,6 @@
 package base;
 
-public class MyInteger {
+private class MyInteger {
 	
 	int iValue;
 	//constuctor
@@ -93,5 +93,19 @@ public class MyInteger {
 	public static boolean isPrime(MyInteger prim){
 		return prim.isPrime();
 	}
+
 	
-}
+	//equals methods
+	public boolean equals(int eq){
+		 if( eq == iValue){
+			 return true;
+		 }
+		 else{
+			 return false;
+		 }
+	}
+	
+	public boolean equals(MyInteger iValue){
+		return true;
+	}
+}	

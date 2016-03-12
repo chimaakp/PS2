@@ -4,8 +4,8 @@ public class MyInteger {
 	
 	int iValue;
 	
-	MyInteger(){
-		
+	MyInteger(int iValue){
+		iValue = this.iValue;
 	}
 	
 	public int getiValue(){

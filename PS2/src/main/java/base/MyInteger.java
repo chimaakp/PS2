@@ -23,10 +23,18 @@ public class MyInteger {
 	}
 	
 	public boolean isOdd(){
-		
-	}
+		int otest = iValue % 2;
+		if(otest == 1){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}		
+	
 	
 	public boolean isPrime(){
+		
 		
 	}
 }

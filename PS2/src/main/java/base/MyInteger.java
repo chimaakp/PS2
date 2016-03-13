@@ -2,10 +2,10 @@ package base;
 
 public class MyInteger {
 	
-	private int iValue;
+	private static int iValue;
 	//constuctor
 	MyInteger(int iValue){
-		iValue = this.iValue;
+		iValue = MyInteger.iValue;
 	}
 	
 	//getter
@@ -96,7 +96,7 @@ public class MyInteger {
 
 	
 	//equals methods
-	public boolean equals(int eq){
+	public static boolean equals(int eq){
 		 if( eq == iValue){
 			 return true;
 		 }

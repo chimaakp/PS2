@@ -83,4 +83,9 @@ public class MyInteger_Test {
 		assertFalse(MyInteger.isPrime(4));
 	}
 	
+	@Test
+	public void testequals(){
+		assertTrue(MyInteger.equals(6));
+	}
+	
 }
